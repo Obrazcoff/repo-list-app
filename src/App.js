@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import styled from 'styled-components';
+import {
+  useQuery,
+  useMutation,
+  useQueryClient,
+  QueryClient,
+  QueryClientProvider,
+} from 'react-query';
+
+// components
+import Details from './components/Details';
+import Navbar from './components/Navbar';
+
+// constants
+import { repoList } from './common/constants';
+
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+`;
+
+// Create a client
+const queryClient = new QueryClient();
 
 function App() {
+  const [repo, setRepo] = useState(repoList[0]);
+
+  const setNextRepo = (nextRepo) => {
+    setRepo(repoList[nextRepo]);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <Wrapper>
+        <Navbar currentRepo={repo} setNextRepo={setNextRepo} />
+        <Details repo={repo} />
+      </Wrapper>
+    </QueryClientProvider>
   );
 }
 
