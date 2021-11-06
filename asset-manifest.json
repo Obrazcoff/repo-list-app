@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/static/js/main.7e9e48bc.chunk.js",
-    "main.js.map": "/static/js/main.7e9e48bc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.731cebdf.js",
-    "runtime-main.js.map": "/static/js/runtime-main.731cebdf.js.map",
-    "static/js/2.f37e5a7a.chunk.js": "/static/js/2.f37e5a7a.chunk.js",
-    "static/js/2.f37e5a7a.chunk.js.map": "/static/js/2.f37e5a7a.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.2ae47eeb.chunk.css.map": "/static/css/main.2ae47eeb.chunk.css.map",
-    "static/js/2.f37e5a7a.chunk.js.LICENSE.txt": "/static/js/2.f37e5a7a.chunk.js.LICENSE.txt"
+    "main.css": "/repo-list-app/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/repo-list-app/static/js/main.7e9e48bc.chunk.js",
+    "main.js.map": "/repo-list-app/static/js/main.7e9e48bc.chunk.js.map",
+    "runtime-main.js": "/repo-list-app/static/js/runtime-main.956e6544.js",
+    "runtime-main.js.map": "/repo-list-app/static/js/runtime-main.956e6544.js.map",
+    "static/js/2.46f8f9ad.chunk.js": "/repo-list-app/static/js/2.46f8f9ad.chunk.js",
+    "static/js/2.46f8f9ad.chunk.js.map": "/repo-list-app/static/js/2.46f8f9ad.chunk.js.map",
+    "index.html": "/repo-list-app/index.html",
+    "static/css/main.2ae47eeb.chunk.css.map": "/repo-list-app/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.46f8f9ad.chunk.js.LICENSE.txt": "/repo-list-app/static/js/2.46f8f9ad.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.731cebdf.js",
-    "static/js/2.f37e5a7a.chunk.js",
+    "static/js/runtime-main.956e6544.js",
+    "static/js/2.46f8f9ad.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
     "static/js/main.7e9e48bc.chunk.js"
   ]
